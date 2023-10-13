@@ -6,12 +6,12 @@
   <a href="https://miro.medium.com/v2/resize:fit:720/format:webp/1*Nmb3_8DCuANFEcfXD7iyEQ.png"></a>
 
   <div class="big-card__title">
-    <h1><a href="#">{{ cardTitle }}</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
-      <a href="#" >
+      <a [routerLink]="['content', Id]">
         {{ cardDescription }}
       </a>
      </p>
